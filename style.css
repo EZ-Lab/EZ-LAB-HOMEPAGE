@@ -498,9 +498,9 @@ object {
 
 .social {
 	position: absolute;
-	top:51px;
-	right: 39px;
-	min-width: 500px;
+	top:25px;
+	right: 30px;
+	min-width: 80px;
 }
 
 .social ul {
@@ -720,7 +720,21 @@ input#s {
 /*-----------------------------------------------------------------------------------*/
 /*	CONTENT
 /*-----------------------------------------------------------------------------------*/
-
+.people{
+	position: relative;
+}
+.people .img{
+	display: inline-block;
+	height: 200px;
+}
+.people .introduction{
+	display: inline-block;
+	margin-left: 100px;
+}
+.people .introduction p{
+	font-size: 15px;
+	margin: 0px;
+}
 .hentry {
 	position: relative;
 	padding-bottom: 20px;
