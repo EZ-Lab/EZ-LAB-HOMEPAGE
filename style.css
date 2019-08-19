@@ -743,8 +743,10 @@ input#s {
 	margin: 0px;
 	color: #000000;
 }
-.people .introduction .font1{
-	font-size: 20px;
+.people .introduction .name{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 22px;
+	margin-bottom: 10px ;
 }
 .hentry {
 	position: relative;
