@@ -375,7 +375,7 @@ object {
 	font-family: 'MerriweatherRegular';
 	font-size: 20px;
 	line-height: 32px;
-	color: #a0a0a0;
+	color: #000000;
 	text-align: center;
 	margin-top: -9px;
 	margin-bottom: 40px;
@@ -465,6 +465,9 @@ object {
 #main {
 	clear: both;
 	padding: 8px 0 0 0;
+}
+#index_main{
+	clear: both;
 }
 
 /* Header */
@@ -781,7 +784,8 @@ input#s {
 }
 .entry-title {
 	color: #ca6d6d;
-	margin: 0 0 5px 0;
+	padding-top: 5px;
+	padding-bottom: 5px;
 	font-size: 28px; 
 }
 .entry-title,
